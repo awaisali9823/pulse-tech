@@ -22,7 +22,7 @@ export default function Navbar() {
     <Box
       sx={{
         width: "100%",
-        padding: "10px 40px ",
+        padding: { xs: "10px 20px", sm: "10px 40px " },
         boxShadow: "0px 4px 40px 0px #0000001A",
       }}
     >
@@ -98,8 +98,9 @@ export default function Navbar() {
             height: "100vh",
             width: "100vw",
             backgroundColor: "rgba(211,211,211,0.6)",
-            position: "absolute",
+            position: "fixed",
             top: "0",
+            zIndex: "10",
           }}
         ></Box>
         <Box
@@ -112,6 +113,7 @@ export default function Navbar() {
             right: 0,
             transition: "all 0.4s ease-in-out",
             transform: menu ? "translateX(0)" : "translateX(100%)",
+            zIndex: "10",
           }}
         >
           <MenuIcon
