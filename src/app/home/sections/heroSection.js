@@ -16,6 +16,7 @@ export default function Hero() {
             lg: "50px 120px",
           },
           position: "relative",
+          border: "1px solid black",
         }}
       >
         <Box
@@ -130,8 +131,9 @@ export default function Hero() {
             background: "linear-gradient(225deg, #F76680 0%, #57007B 100%)",
             borderRadius: "50%",
             bottom: "-36px",
-            left: "40%",
+            left: "35%",
             transform: "translateX(-50%)",
+            // zIndex: "-1",
           }}
         ></Box>
       </Box>
