@@ -16,7 +16,6 @@ export default function Hero() {
             lg: "50px 120px",
           },
           position: "relative",
-          border: "1px solid black",
         }}
       >
         <Box
@@ -105,7 +104,7 @@ export default function Hero() {
                 margin: { xs: "20px auto", sm: "0px" },
               }}
             >
-              Let&apos; get started!
+              Let&apos;s get started!
             </Button>
           </Box>
           <Box
@@ -133,7 +132,7 @@ export default function Hero() {
             bottom: "-36px",
             left: "35%",
             transform: "translateX(-50%)",
-            // zIndex: "-1",
+            zIndex: "-1",
           }}
         ></Box>
       </Box>

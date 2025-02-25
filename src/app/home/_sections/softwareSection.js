@@ -22,7 +22,6 @@ export default function Software() {
           lg: "50px 120px",
           position: "relative",
         },
-        border: "1px solid black",
       }}
     >
       <Box
@@ -41,6 +40,7 @@ export default function Software() {
             borderRadius: "50%",
             top: "-36px",
             display: { xs: "none", md: "block" },
+            zIndex: "-1",
           }}
         ></Box>
 
@@ -54,6 +54,7 @@ export default function Software() {
             bottom: "-36px",
             right: "40%",
             display: { xs: "none", md: "block" },
+            zIndex: "-1",
           }}
         ></Box>
 

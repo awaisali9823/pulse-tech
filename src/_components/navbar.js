@@ -101,6 +101,7 @@ export default function Navbar() {
             position: "fixed",
             top: "0",
             zIndex: "10",
+            left: "0",
           }}
         ></Box>
         <Box
