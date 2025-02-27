@@ -1,3 +1,4 @@
+import Footer from "@/_components/Footer";
 import Building from "./_sections/buildingSection";
 import CaseStudy from "./_sections/caseStudySection";
 import DevelopSection from "./_sections/developSection";
@@ -20,6 +21,7 @@ export default function HomePage() {
       <DevelopSection />
       <FeatureSection />
       <HireSection />
+      <Footer />
     </>
   );
 }
