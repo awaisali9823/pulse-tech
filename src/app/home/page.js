@@ -8,6 +8,7 @@ import HireSection from "./_sections/hireSection";
 import MarqueeSection from "./_sections/marqueeSection";
 import ServiceSection from "./_sections/serviceSection";
 import Software from "./_sections/softwareSection";
+import TabSection from "./_sections/tabSection";
 
 export default function HomePage() {
   return (
@@ -22,6 +23,7 @@ export default function HomePage() {
       <FeatureSection />
       <HireSection />
       <Footer />
+      <TabSection />
     </>
   );
 }
