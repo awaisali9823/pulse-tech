@@ -20,10 +20,10 @@ export default function HomePage() {
       <CaseStudy />
       <Building />
       <DevelopSection />
+      <TabSection />
       <FeatureSection />
       <HireSection />
       <Footer />
-      <TabSection />
     </>
   );
 }

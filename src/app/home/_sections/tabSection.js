@@ -1,5 +1,5 @@
 "use client";
-import { Box } from "@mui/material";
+import { Box, Divider, Typography } from "@mui/material";
 import Tab from "@mui/material/Tab";
 import TabContext from "@mui/lab/TabContext";
 import TabList from "@mui/lab/TabList";
@@ -34,7 +34,35 @@ export default function TabSection() {
       }}
     >
       <Box sx={{ maxWidth: "1400px", width: "100%", margin: "auto" }}>
-        {/* <Box></Box> */}
+        <Box
+          sx={{
+            // border: "1px solid red",
+            maxWidth: "470px",
+            width: "100%",
+            margin: "50px auto",
+            textAlign: "center",
+          }}
+        >
+          <Divider
+            sx={{
+              width: "60px",
+              height: "5px",
+              background: "linear-gradient(to right,#f76680, #57007b)",
+              margin: "auto",
+            }}
+          ></Divider>
+          <Typography
+            sx={{
+              fontSize: "35px",
+              fontWeight: "700",
+              color: "#1a202c",
+              marginTop: "20px",
+              // ml: { xs: "16px", sm: "0px" },
+            }}
+          >
+            Our Tech Stack
+          </Typography>
+        </Box>
         <Box sx={{ maxWidth: "1050px", width: "100%", margin: "auto" }}>
           <TabContext value={value}>
             <Box
@@ -80,7 +108,14 @@ export default function TabSection() {
               </Box>
             </TabPanel>
             <TabPanel value="2">
-              <Box>
+              <Box
+                sx={{
+                  display: "flex",
+                  flexWrap: "wrap",
+                  justifyContent: "center",
+                  gap: "30px",
+                }}
+              >
                 <Image src={Node} alt="node" height={94} width={166} />
                 <Image src={Php} alt="php" height={94} width={166} />
                 <Image src={Sql} alt="sql" height={94} width={166} />
@@ -92,7 +127,14 @@ export default function TabSection() {
               </Box>
             </TabPanel>
             <TabPanel value="3">
-              <Box>
+              <Box
+                sx={{
+                  display: "flex",
+                  flexWrap: "wrap",
+                  justifyContent: "center",
+                  gap: "30px",
+                }}
+              >
                 <Image src={Node} alt="node" height={94} width={166} />
                 <Image src={Sql} alt="sql" height={94} width={166} />
                 <Image src={Java} alt="java" height={94} width={166} />
@@ -104,7 +146,14 @@ export default function TabSection() {
               </Box>
             </TabPanel>
             <TabPanel value="4">
-              <Box>
+              <Box
+                sx={{
+                  display: "flex",
+                  flexWrap: "wrap",
+                  justifyContent: "center",
+                  gap: "30px",
+                }}
+              >
                 <Image src={Node} alt="node" height={94} width={166} />
                 <Image src={Php} alt="php" height={94} width={166} />
                 <Image src={Java} alt="java" height={94} width={166} />
@@ -116,7 +165,14 @@ export default function TabSection() {
               </Box>
             </TabPanel>
             <TabPanel value="5">
-              <Box>
+              <Box
+                sx={{
+                  display: "flex",
+                  flexWrap: "wrap",
+                  justifyContent: "center",
+                  gap: "30px",
+                }}
+              >
                 <Image src={Node} alt="node" height={94} width={166} />
                 <Image src={Php} alt="php" height={94} width={166} />
                 <Image src={Sql} alt="sql" height={94} width={166} />
@@ -128,7 +184,14 @@ export default function TabSection() {
               </Box>
             </TabPanel>
             <TabPanel value="6">
-              <Box>
+              <Box
+                sx={{
+                  display: "flex",
+                  flexWrap: "wrap",
+                  justifyContent: "center",
+                  gap: "30px",
+                }}
+              >
                 <Image src={Node} alt="node" height={94} width={166} />
                 <Image src={Php} alt="php" height={94} width={166} />
                 <Image src={Sql} alt="sql" height={94} width={166} />
