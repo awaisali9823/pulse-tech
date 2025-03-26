@@ -51,7 +51,7 @@ export default function Footer() {
                 fontSize: "18px",
                 fontWeight: "700",
                 color: "#4A5568",
-                margin: "15px 0px",
+                margin: "0px 0px 15px 0px",
               }}
             >
               Links
